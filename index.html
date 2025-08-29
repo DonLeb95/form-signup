@@ -9,7 +9,6 @@
 <body>
     <div class="structure">
         <div class="media">
-            <!--<img src="media/forest.jpg" alt="a forest in bright daylight"> initial idea -->
             <div class="brand-media">
                 <img src="media/odin-lined.png" alt="Odin logo">
                 <span>Odin</span>
@@ -28,39 +27,46 @@
             </div>
             <form>
                 <div class="fields">
-                    <div class="left-field">
+                    <div class="top-field">
                         <div class="tin">
                             <label for="firstname">FIRST NAME</label>
                             <input type="text" id="firstname" name="firstname">
                         </div>
-
+                        
+                        <div class="tin">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="lastname" id="lastname" name="lastname">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="center-field">
                         <div class="tin">
                             <label for="email">EMAIL</label>
                             <input type="email" id="email" name="email">
                         </div>
 
                         <div class="tin">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password" required>
-                        </div>
-                    </div>
-
-                    <div class="right-field">
-                        <div class="tin">
-                            <label for="lastname">LAST NAME</label>
-                            <input type="lastname" id="lastname" name="lastname">
-                        </div>
-
-                        <div class="tin">
                             <label for="phone">PHONE NUMBER</label>
                             <input type="tel" id="phone" name="phone">
                         </div>
-
+                        
+                    </div>
+                    
+                    <div class="bottom-field">
+                        
+                        <div class="tin">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        
                         <div class="tin">
                             <label for="confirm-password">CONFIRM PASSWORD</label>
                             <input type="password" id="confirm-password" name="confirm-password" required>
                         </div>
-                    </div>    
+
+                    </div>
+                    
                 </div>
 
                 <button type="submit">Create Account</button>
